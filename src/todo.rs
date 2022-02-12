@@ -115,7 +115,7 @@ impl Todo {
         html! {
             <li class="list-group-item" style="margin:3px">
                 <input type="checkbox" style="zoom:120%;vertical-align:middle;" checked={ checked } onclick={ link.callback(move |_| Msg::ToggleOne(idx)) } />
-                {" "}
+                {'\u{00a0}'}{'\u{00a0}'}{'\u{00a0}'}
                 <span style={ completed }>
                     { &val.content }
                 </span>
