@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 authors = ["Night Cruising"]
 license = "MIT"
-description = "A very simple todo app implemented with Yew."
+description = "A simple todo app implemented with Yew."
 readme = "README.md"
 repository = "https://github.com/night-cruise/todo-app"
 
