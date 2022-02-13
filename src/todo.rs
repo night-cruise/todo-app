@@ -95,14 +95,12 @@ impl Todo {
         });
 
         html! {
-            <form>
-                <div class="input-group">
-                      <input type="text" class="form-control border border-info" placeholder="What needs to be done?" { onkeypress } />
-                    <div class="input-group-append">
-                          <button class="btn btn-info" onclick={ link.callback(move |_| Msg::Clear) }>{ "Clear" }</button>
-                    </div>
+            <div class="input-group">
+                  <input type="text" class="form-control border border-info" placeholder="What needs to be done?" { onkeypress } />
+                <div class="input-group-append">
+                      <button class="btn btn-info" onclick={ link.callback(move |_| Msg::Clear) }>{ "Clear" }</button>
                 </div>
-              </form>
+            </div>
         }
     }
 

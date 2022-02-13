@@ -13,7 +13,7 @@ impl Component for Header {
     fn view(&self, _ctx: &Context<Self>) -> Html {
         html! {
             <nav class="navbar navbar-expand-sm bg-info navbar-dark justify-content-center">
-                <a class="navbar-brand" href="/#"><span class="font-weight-bold">{ "Todo App" }</span></a>
+                <a class="navbar-brand" name="top" href="/#"><span class="font-weight-bold">{ "Todo App" }</span></a>
             </nav>
         }
     }
