@@ -1,4 +1,4 @@
-use gloo::storage::{LocalStorage, Storage};
+use gloo_storage::{LocalStorage, Storage};
 use serde::{Deserialize, Serialize};
 use web_sys::HtmlInputElement;
 use yew::{html, html::Scope, Component, Context, Html, KeyboardEvent, TargetCast};

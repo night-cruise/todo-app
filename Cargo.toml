@@ -13,5 +13,5 @@ repository = "https://github.com/night-cruise/todo-app"
 [dependencies]
 yew = "0.19.3"
 web-sys = { version="0.3.56", features=["HtmlInputElement"] }
-gloo = "0.6.0"
 serde = { version = "1.0", features = ["derive"] }
+gloo-storage = "0.2.0"
